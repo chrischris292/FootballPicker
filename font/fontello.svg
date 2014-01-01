@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2013 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="help" unicode="&#xe801;" d="m393 149v-134q0-9-7-16t-15-6h-134q-9 0-16 6t-7 16v134q0 9 7 16t16 6h134q8 0 15-6t7-16z m176 335q0-30-8-56t-20-43t-31-33t-32-25t-34-19q-23-13-38-37t-15-37q0-10-7-18t-16-9h-134q-8 0-14 10t-6 21v26q0 46 37 87t79 60q33 15 47 32t14 42q0 23-26 41t-60 18q-36 0-60-16q-20-14-60-64q-7-9-17-9q-7 0-14 4l-91 70q-8 6-9 14t3 16q89 148 259 148q45 0 90-17t81-46t59-72t23-88z" horiz-adv-x="571.4" />
+<glyph glyph-name="upload-cloud" unicode="&#xe802;" d="m714 368q0 8-5 13l-196 196q-5 5-13 5t-13-5l-196-196q-5-6-5-13q0-8 5-13t13-5h125v-196q0-8 5-13t12-5h108q7 0 12 5t5 13v196h125q8 0 13 5t5 13z m357-161q0-89-62-151t-152-63h-607q-103 0-177 73t-73 177q0 72 39 134t105 92q-1 17-1 24q0 118 84 202t202 84q87 0 159-49t105-129q40 35 93 35q59 0 101-42t42-101q0-43-23-77q72-17 119-76t46-133z" horiz-adv-x="1071.4" />
+<glyph glyph-name="facebook" unicode="&#xe804;" d="m285 540h144l-17-159h-127v-460h-190v460h-95v159h95v95q0 102 48 154t158 52h126v-158h-79q-22 0-35-4t-19-13t-7-19t-2-28v-79z" horiz-adv-x="428.6" />
+<glyph glyph-name="logout" unicode="&#xe800;" d="m912 614l276-266l-276-264v177h-413v176h413v177z m-166-512l106-107q-156-146-338-146q-217 0-365 143t-149 359q0 135 68 250t184 182t250 66q184 0 349-148l-105-106q-114 104-243 104q-149 0-251-104t-103-254q0-140 106-241t247-101q131 0 244 103z" horiz-adv-x="1188" />
+</font>
+</defs>
+</svg>

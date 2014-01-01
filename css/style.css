@@ -1,0 +1,34 @@
+body{
+	font-weight: 100;
+letter-spacing: 1px;
+color: #fff;
+width: 100%;
+height: 100%;
+background: #59c882; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #00163F 0%, #4ba0e6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#00163F), color-stop(100%,#4ba0e6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #00163F 0%,#4ba0e6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #00163F 0%,#4ba0e6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #00163F 0%,#4ba0e6 100%); /* IE10+ */
+background: linear-gradient(135deg,  #00163F -5%,#4ba0e6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00163F', endColorstr='#4ba0e6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background-attachment: fixed;
+}
+.chatBox{
+height: 200px;
+padding: 10px;
+background: rgba(255, 255, 255, 0.2);
+}
+.socialContainer{
+
+}
+.selectionTeams{
+width: 230px;
+height: 200px;
+padding: 10px;
+background: rgba(255, 255, 255, 0.2);
+}
+.selectionTeamsContainer{
+padding-right: 15px;
+float:left;
+}

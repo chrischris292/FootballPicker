@@ -1,0 +1,56 @@
+.deck-container {
+  position: relative;
+  height: 40%;
+  margin: 0 auto;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.js .deck-container {
+  visibility: hidden;
+}
+.ready .deck-container {
+  visibility: visible;
+}
+.touch .deck-container {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+}
+
+.deck-loading {
+  display: none;
+}
+
+.slide {
+  width: auto;
+  height: 50%;
+  position: relative;
+}
+
+.deck-before, .deck-previous, .deck-next, .deck-after {
+  position: absolute;
+  left: -999em;
+  top: -999em;
+}
+
+.deck-current {
+  z-index: 2;
+}
+
+.slide .slide {
+  visibility: hidden;
+  position: static;
+  min-height: 0;
+}
+
+.deck-child-current {
+  position: static;
+  z-index: 2;
+  padding-top:1%;
+
+}
+.deck-child-current .slide {
+  visibility: hidden;
+}
+.deck-child-current .deck-previous, .deck-child-current .deck-before, .deck-child-current .deck-current {
+  visibility: visible;
+}

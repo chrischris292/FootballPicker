@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/deck.core.css">
+<link rel="stylesheet" href="css/deck.navigation.css">
+<link rel="stylesheet" href="css/deck.status.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fontello.css">
+<link rel="stylesheet" href="css/toastr.min.css">
+<link rel="stylesheet" href="css/introjs.min.css">
+<script src = "js/jquery.min.js"></script>
+<script src = "js/deck.core.js"></script>
+<script src = "js/deck.navigation.js"></script>
+<script src = "js/deck.status.js"></script>
+<script src = "js/bootstrap.min.js"></script>
+<script src = "js/intro.min.js"></script>
+<script src = "js/toastr.min.js"></script>
+<script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
+<script type='text/javascript'src='https://cdn.firebase.com/v0/firebase-simple-login.js'></script>
+<script src = "js/main.js"></script>
+</head>
+<div class = 'container'>
+<a href="leaderboard.html" class = "backButton" onclick="auth.logout()"></a>
+<i class="icon-help helpIcon" id='helpButton'></i>
+<i class="icon-upload-cloud cloudIcon" id = 'uploadButton'></i>
+<div id="signin" class="modal fade in" data-keyboard="false" data-backdrop="static" aria-hidden="false" style="display: block;">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Sign In</h3>
+				</div>
+				<div class="modal-body">
+					<div class="facebookButton" onclick="fireBaseLogIn()">
+						<i class="icon-facebook" style="float: left; font-size: 20px; color: rgba(255, 255, 255, 0.8); margin-top: 2px; margin-left: 7px"></i>
+						Log In With Facebook
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- MENU !-->
+	<!--Container!-->
+<div class = 'container'>
+	<div id = "slides" data-step='1' data-intro='Choose your games here. Press <- or -> to move between games'>
+       <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+    <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+  <!-- deck.status snippet -->
+    <p class="deck-status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+    </div>
+	<div class="flex-container">
+			<div class="box fixed-left" data-step='2' data-intro='Selected games are shown here' data-position='top'>
+				<div class="box-content" style="overflow-y: scroll;">
+					<table class="flat-table flat-table-1">
+						<thead>
+							<th>Home</th>
+							<th>Away</th>
+						</thead>
+						<tbody id = "teams">
+						</tbody>
+					</table>
+				</div>
+						</div>
+						<div class="box flex-column">
+							<div class="box-content">
+								<div class="chat">
+								<div class="chatter">
+						<div style="overflow-y: scroll;" id="chatScroll" class="chats">
+							<div class="chatsContainer">
+								<!-- ngRepeat: chat in chats -->
+							</div>
+						</div>
+							<div id='messagesDiv' data-step='3' data-intro = 'trash talk here' data-position='top'>
+							
+							</div>
+							<input ng-model="dialog" class="sexy-input ng-pristine ng-valid" placeholder="Enter your comment here..." ng-keypress="inputChat($event)" id = "chatInput">
+					</div>
+				</div>
+				</div>
+			</div>
+	</div>
+</div>
+	</html>
